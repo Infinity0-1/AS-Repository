@@ -1,0 +1,25 @@
+\documentclass[11pt, a4paper, addpoints]{article}
+
+\usepackage{amsmath, amssymb, amsfonts, amsthm, mathtools, fancyhdr, textcomp, microtype, graphicx, hyperref, float, siunitx, physics, lmodern, setspace, pgfplots}
+
+\usepackage[ top=2cm, right=1cm, bottom=1.6cm, left=1cm ]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\setstretch{1.1}
+\usepackage[version=4]{mhchem}
+\usepackage[nameinlink]{cleveref}
+\usepackage[most]{tcolorbox}
+
+\newtcolorbox{box ex}[1][]{
+    enhanced, colback=blue!2!white, colframe=blue!10!black, drop fuzzy shadow}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[C]{AS Repository}
+\fancyhead[R]{\today}
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0.4pt}
+
+\tolerance=1000
+\emergencystretch=10pt
+\hbadness=2000
